@@ -1,0 +1,6 @@
+ls:
+  '**':
+    .ts: kebab-case
+    .svelte: kebab-case
+  'src/inner':
+    .ts: regex:\+[a-z]+(-[a-z]+)*
